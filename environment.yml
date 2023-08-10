@@ -1,0 +1,11 @@
+name: Pipelinefinale
+channels:
+  - conda-forge
+dependencies:
+  - pytorch
+  - tensorflow
+  - transformers
+  - openai
+  - librosa
+  - pip:
+      sounddevice
