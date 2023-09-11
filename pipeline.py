@@ -17,7 +17,7 @@ def language(lg):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-l', '--language', default='french', help="select language, default='french'")
+    parser.add_argument('-l', '--language', default='italian', help="select language, default='french'")
     parser.add_argument('-s', '--size', default='base', help="whisper size, base or small recommended")
     parser.add_argument('-d', '--device', default=0, help="device to use for microphone, list of devices type 'python -m sounddevice'", type=int)
     parser.add_argument('-b', '--blocksize', default=16000, help="size of recording block, by default 16000, so 1 block is one second", type=int)
